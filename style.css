@@ -1,0 +1,8 @@
+:root {
+    --base-size: 50px;
+    --extra-space: 20px;
+}
+
+.element {
+    width: calc(var(--base-size) + var(--extra-space)); /* Adds the values of the variables */
+}
